@@ -26,21 +26,8 @@ div ul{
 	margin: 0 auto;
 }
 
-.content {
-	padding: 0px 15px;
-}
-
-.top-nav > .content > .links {
+.top-nav a {
 	float: right;
-}
-
-.links > li {
-	display: inline-block;
-	list-style-type: none;
-	
-}
-
-a {
 	text-decoration: none;
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
@@ -48,43 +35,19 @@ a {
 	letter-spacing: 0.03em;
 }
 
-.top-nav .links > .active {
-	color: #4c5058;
-	font-weight: 500;
-}
-
-/*
 .content {
-	max-width: 50em;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0.6em 0;
+	padding: 0px 15px;
 }
 
 
-
-.logo {
-	position: relative;
-
-}
-
-.links {
-	padding: 0 0 0 22em;
-	margin: 0;
-}
 
 .links > li {
 	display: inline-block;
 	list-style-type: none;
-	padding-left: 1em;
+	
 }
 
-.links > li > a {
-	text-decoration: none;
-	color: #4C5058;
+.top-nav .links > .active {
+	color: #4c5058;
+	font-weight: 500;
 }
-
-.active {
-	color: #4C5058;
-}
-*/
