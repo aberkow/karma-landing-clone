@@ -1,12 +1,17 @@
 body {
 	background-color: lightgrey;
 }
-
+/*
 div {
 	border: 1px solid Chocolate;
 }
-
+*/
 .header-navbar, .content, .top-nav {
+	background-color: white;
+
+}
+
+.top-nav {
 	background-color: white;
 }
 
@@ -14,16 +19,22 @@ div {
 	max-width: 50em;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 0.6em 0;
 }
 
 .nav-links {
 	padding: 0 0 0 22em;
 }
 
-.nav-links > li{
+.nav-links > li {
 	display: inline-block;
 	list-style-type: none;
 	padding-left: 1em;
+}
+
+.nav-links > li > a {
+	text-decoration: none;
+	color: #4C5058;
 }
 
 
