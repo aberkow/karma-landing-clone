@@ -2,12 +2,18 @@
 body {
 	background-color: lightgrey;
 }
-
+*/
 div ul{
 	border: 1px solid Chocolate;
 }
-*/
 
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
 }
 
 .top-nav {
@@ -20,6 +26,24 @@ div ul{
 	margin: 0 auto;
 }
 
+.content {
+	padding: 0px 15px;
+}
+
+.top-nav > .content > .links {
+	float: right;
+
+}
+
+.links > li {
+	display: inline-block;
+	list-style-type: none;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
+
 /*
 .content {
 	max-width: 50em;
@@ -27,7 +51,7 @@ div ul{
 	margin-left: auto;
 	padding: 0.6em 0;
 }
-*/
+
 
 
 .logo {
@@ -54,3 +78,4 @@ div ul{
 .active {
 	color: #4C5058;
 }
+*/
