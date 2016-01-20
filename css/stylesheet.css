@@ -10,9 +10,20 @@ div {
 	background-color: white;
 }
 
+.content {
+	max-width: 50em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav-links {
+	padding: 0 0 0 22em;
+}
+
 .nav-links > li{
 	display: inline-block;
 	list-style-type: none;
+	padding-left: 1em;
 }
 
 
