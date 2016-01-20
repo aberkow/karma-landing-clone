@@ -35,17 +35,18 @@ div ul{
 
 }
 
-.nav-links {
+.links {
 	padding: 0 0 0 22em;
+	margin: 0;
 }
 
-.nav-links > li {
+.links > li {
 	display: inline-block;
 	list-style-type: none;
 	padding-left: 1em;
 }
 
-.nav-links > li > a {
+.links > li > a {
 	text-decoration: none;
 	color: #4C5058;
 }
