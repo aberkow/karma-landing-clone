@@ -1,3 +1,4 @@
+/*
 body {
 	background-color: lightgrey;
 }
@@ -5,22 +6,29 @@ body {
 div ul{
 	border: 1px solid Chocolate;
 }
-
-.header-navbar, .content, .top-nav {
-	background-color: white;
+*/
 
 }
 
 .top-nav {
-	background-color: white;
+	background-color: #fff;
 }
 
+.top-nav > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+/*
 .content {
 	max-width: 50em;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0.6em 0;
 }
+*/
+
 
 .logo {
 	position: relative;
