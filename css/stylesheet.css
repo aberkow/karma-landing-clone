@@ -5,3 +5,13 @@ body {
 div {
 	border: 1px solid Chocolate;
 }
+
+.header-navbar {
+	background-color: white;
+	padding: 0.6em;
+}
+
+.navbar > li {
+	display: inline-block;
+	list-style-type: none;
+}
