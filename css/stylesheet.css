@@ -6,12 +6,37 @@ div {
 	border: 1px solid Chocolate;
 }
 
-.header-navbar {
+.header-navbar, .content, .top-nav {
 	background-color: white;
-	padding: 0.6em;
 }
 
-.navbar > li {
+.nav-links > li{
 	display: inline-block;
 	list-style-type: none;
 }
+
+
+
+/*
+.top-nav {
+	background-color: white;
+}
+
+.header-navbar {
+	padding: 0.6em;
+}
+
+.content {
+	position: relative;
+	max-width: 50em;
+}
+
+.nav-links {
+	position: relative;
+}
+.nav-links > li {
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+}
+*/
