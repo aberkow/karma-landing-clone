@@ -13,7 +13,6 @@ html {
 }
 
 div ul{
-	border: 1px solid Chocolate;
 	margin-top: 2em;
 }
 
@@ -33,16 +32,25 @@ div ul{
 
 .top-nav > .content > .links {
 	float: right;
-
 }
 
 .links > li {
 	display: inline-block;
 	list-style-type: none;
+	
+}
+
+a {
+	text-decoration: none;
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+}
+
+.top-nav .links > .active {
+	color: #4c5058;
+	font-weight: 500;
 }
 
 /*
