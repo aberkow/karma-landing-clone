@@ -3,17 +3,18 @@ body {
 	background-color: lightgrey;
 }
 */
-div ul{
-	border: 1px solid Chocolate;
-}
-
-
 html {
 	box-sizing: border-box;
+	webkit-font-smoothing: antialiased;
 }
 
 *, *:before, *:after {
 	box-sizing: border-box;
+}
+
+div ul{
+	border: 1px solid Chocolate;
+	margin-top: 2em;
 }
 
 .top-nav {
