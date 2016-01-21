@@ -66,7 +66,7 @@ div {
 /*upper content area css */
 
 .introduction {
-	background-image: url(https://raw.githubusercontent.com/aberkow/karma-landing-clone/master/images/first-background.jpg);
+	background-image: url("../images/first-background.jpg");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -87,8 +87,14 @@ div {
 	font-weight: 300;
 }
 
-.buttons {
+.introduction .buttons {
 	width: 50rem;
-
+	margin: 1.563rem auto;
+	color: white;
+	text-align: center;
 }
 
+button {
+	background-color: #f15a29;
+	border-radius: 4px;
+}
