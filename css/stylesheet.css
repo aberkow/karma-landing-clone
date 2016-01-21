@@ -62,3 +62,14 @@ div {
 	width: 26px;
 	/*margin-left: 14px;*/
 }
+
+/*upper content area css */
+
+.introduction {
+	background-image: url(https://raw.githubusercontent.com/aberkow/karma-landing-clone/master/images/first-background.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	height: 45.938rem;
+}
