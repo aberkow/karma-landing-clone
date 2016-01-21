@@ -71,5 +71,24 @@ div {
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: auto;
-	height: 45.938rem;
+	height: 45.938rem;	
 }
+
+.introduction h1 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 17.50rem;
+}
+
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.buttons {
+	width: 50rem;
+
+}
+
