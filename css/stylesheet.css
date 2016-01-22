@@ -115,9 +115,7 @@ button:hover {
 	border-color: #CF3D0E;
 }
 
-.cases {
 
-}
 
 .cases h2 {
 	font-weight: 300;
@@ -126,12 +124,13 @@ button:hover {
 
 }
 
-.cases .devices {
-	border-color: 1px solid red;
-}
-
 .cases .devices li {
 	display: inline-block;
 	list-style-type: none;
 
+}
+
+.caption {
+    font-weight: 300;
+    font-size: 1em;
 }
