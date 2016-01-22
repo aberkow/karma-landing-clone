@@ -115,8 +115,6 @@ button:hover {
 
 }
 
-
-
 .cases .devices li {
 	display: inline-block;
 	list-style-type: none;
@@ -129,3 +127,37 @@ button:hover {
     font-size: 1.5em;
     text-align: center;
 }
+
+.footer h4 {
+    text-align: center;
+    font-weight: 200;  
+}
+
+.social {
+    max-width: 25rem;
+    margin-left: 9.5rem;
+    text-align: center;
+}
+
+.social li{
+    display: inline-block;
+    list-style-type: none;  
+}
+
+.fa-circle-thin {
+    border: transparent;
+    border-radius: 100%;
+}
+
+/*
+.twitter, .facebook, .instagram {
+    border: 1px solid red;
+    border-radius: 100%;
+}
+*/
+
+.footer h5 {
+    text-align: center;
+    font-weight: 100;
+}
+
