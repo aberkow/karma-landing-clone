@@ -139,13 +139,7 @@ hr {
 }
 
 .social {
-    /*
-    max-width: 25rem;
-    margin-left: 9.5rem;
-    */
-    
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .footer .social > li{
@@ -156,8 +150,8 @@ hr {
     height: 2.5rem;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
-    padding 0.625rem 0;
     text-align: center;
+    padding: 0.625rem 0;
 }
 
 /*
@@ -167,7 +161,7 @@ hr {
 }
 */
 
-.footer .social li.active {
+.footer .social li:hover {
     cursor: pointer;
     color: #333333;
 }
