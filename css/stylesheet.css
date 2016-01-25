@@ -139,7 +139,8 @@ hr {
 }
 
 .social {
-    text-align: center;  
+    text-align: center;
+    margin-right: 40px;
 }
 
 .footer .social > li{
@@ -154,13 +155,6 @@ hr {
     padding: 0.625rem 0;
 }
 
-/*
-.social li span {
-    border: 1px solid #eaebec;
-    border-radius: 100%;
-}
-*/
-
 .footer .social li:hover {
     cursor: pointer;
     color: #333333;
@@ -170,11 +164,22 @@ hr {
     color: #55acee;
 }
 
+.footer .social .twitter:hover {
+    color: #55acee;
+}
 .facebook {
     color: #4c66a4;
 }
 
+.footer .social .facebook:hover {
+    color: #4c66a4;
+}
+
 .instagram {
+    color: #3f729b;
+}
+
+.footer .social .instagram:hover {
     color: #3f729b;
 }
 
